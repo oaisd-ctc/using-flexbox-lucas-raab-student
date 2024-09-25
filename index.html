@@ -19,11 +19,17 @@
             <div> box 2</div>
             <div> box 3</div>
         </div>
-        <p> this a second example of have a flex box </p>
+        <h1>this a second example of have a flex box </h1>
+        <p>for this one i did something similar to example on i justed used one div for the box instead of three.</p>
+        <p> for the background i did 100% for the width and the height is 400px </p>
+        <p>the box inside the height and width are 200px</p>
         <div id="flexbox">
             <div> flex 1</div>
         </div>
+        <h1> click on this link</h1>
         <nav><a class="highlight" href="pages/nav.html"> how i did this</a> </nav>
+        <h1>how i did the list</h1>
+        <p> in html i made a  regular unorder list but in css i used li:nth-child() and in the patheness odd and then i did brackets and did the background color</p>
         <ul>
             <li>first</li>
             <li> second</li>
@@ -31,9 +37,46 @@
             <li>fourth</li>
             <li>fifth</li>
         </ul>
+        <h1> how to do hover</h1>
+        <p>how i used divs for the box and background like for the last flex boxes but for this one in css</p>
+        <p> but after creating the boxes make a puesdo class for hover for the transition for example like this </p>
+        <h1>the box you see now</h1>
+        <p>
+            #hoverbox {
+                display: flex;
+                background-color: darkred;
+                height: 200px;
+                justify-content: center</p>
+                <p>
+                #hoverbox>div {
+                    background-color: gold;
+                    height: 100px;
+                    width: 100px;
+                    align-items: center;
+                }
+            }</p>
+            <h1> the box you see when you hover</h1>
+            <p>
+                #hoverbox:hover {
+                    display: flex;
+                    background-color: gold;
+                    height: 200px;
+                    justify-content: center;
+                }</p>
+                <p>
+                    #hoverbox:hover>div {
+                        background-color: darkred;
+                        height: 100px;
+                        width: 100px;
+                        align-items: center;
+                        color: gold;
+                        transition:200ms
+                    }</p>
         <div id="hoverbox">
             <div> hover over this</div>
             </div>
+            <h1>click on this</h1>
+            <p> i did this by making a normal form with the input text but in the css i did input:focus then in barckets and did the background color</p>
             <form>
                 click this <input type="text" name="clickthis"> <br>
                 now this <input type="text" name="nowthis"><br>
