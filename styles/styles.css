@@ -80,7 +80,7 @@ li {
     width: 100px;
     align-items: center;
     color: gold;
-    transition:200ms
+    transition: 200ms
 }
 
 input:focus {
